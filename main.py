@@ -1,9 +1,9 @@
-import kivy
-import sys
-print("python:")
-print(sys.version)
-print("kivy:")
-print(kivy.__version__)
+#import kivy
+#import sys
+#print("python:")
+#print(sys.version)
+#print("kivy:")
+#print(kivy.__version__)
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
 
