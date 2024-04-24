@@ -1,0 +1,13 @@
+<MyBoxLayout>:
+    orientation: 'vertical'
+    Label:
+        text: 'Witaj w mojej aplikacji Kivy!'
+    TextInput:
+        id: text_input
+        hint_text: 'Wpisz coś...'
+    Button:
+        text: 'Kliknij mnie!'
+        on_release: root.on_button_click()
+    Label:
+        id: output_label
+        text: ''
